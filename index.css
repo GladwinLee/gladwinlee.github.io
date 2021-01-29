@@ -3,18 +3,17 @@
 }
 
 a {
-    text-decoration: none;
+    color: black
+}
+
+.header {
+    font-size: 25px;
 }
 
 .introduction {
-    font-size: 20px;
-    ;
+    font-size: 70px;
 }
 
 #nav {
-    color: black;
-}
-
-#nav a {
-    color: black;
+    text-align: right;
 }
