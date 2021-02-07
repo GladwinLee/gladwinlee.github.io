@@ -33,3 +33,85 @@ footer {
     width: 100%;
     text-align: center;
 }
+
+.css-typing p {
+    border-right: .15em solid black;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.css-typing p:nth-child(1) {
+    width: 13.5em;
+    opacity: 0;
+    -webkit-animation: type2 2s steps(40, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+    width: 11em;
+    opacity: 0;
+    -webkit-animation: type2 2s steps(49, end);
+    animation: type2 2.45s steps(49, end);
+    ;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {
+    width: 25em;
+    opacity: 0;
+    -webkit-animation: type2 2s steps(89, end);
+    animation: type2 4.45s steps(89, end);
+    -webkit-animation-delay: 4.45s;
+    animation-delay: 4.45s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes type2 {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    99.9% {
+        border-right: .15em solid black;
+    }
+    100% {
+        opacity: 1;
+        border: none;
+    }
+}
+
+@-webkit-keyframes type2 {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    99.9% {
+        border-right: .15em solid black;
+    }
+    100% {
+        opacity: 1;
+        border: none;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: black;
+    }
+}
+
+@-webkit-keyframes blink {
+    50% {
+        border-color: black;
+    }
+}
