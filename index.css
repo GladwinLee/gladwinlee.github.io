@@ -5,8 +5,25 @@
     font-family: 'Anonymous Pro', monospace;
 }
 
+h1 {
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 a {
     color: black;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.break {
+    font-size: 35px;
 }
 
 .header {
@@ -14,11 +31,25 @@ a {
 }
 
 .introduction {
-    font-size: 50px;
+    font-size: 45px;
+    text-align: center;
 }
 
-#nav {
-    text-align: right;
+.experience {
+    font-size: 25px;
+    text-align: center;
+}
+
+
+/* 
+.experience p {
+    display: inline-block;
+    text-align: left;
+} */
+
+.company {
+    font-size: 35px;
+    text-align: center;
 }
 
 .links {
@@ -34,7 +65,8 @@ footer {
     text-align: center;
 }
 
-.css-typing p {
+
+/* .css-typing p {
     border-right: .15em solid black;
     white-space: nowrap;
     overflow: hidden;
@@ -114,4 +146,4 @@ footer {
     50% {
         border-color: black;
     }
-}
+} */
